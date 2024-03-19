@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #D9D9D9;
+}
+.navigationbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.container-navigationbar{
+    width: 100%;
+    height: 100px;
+    background-color: #161616;
+}
+.menubar{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+.item-navabar a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.container-logo{
+    width: 200px;
+    height: 100px;
+    padding-left: 50px;
+}
+.logo{
+    height: 70px;
+    object-fit: cover;
+}
+.item-navabar button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #5c5c5c;
+}
+.item-navabar button:hover{
+    transition: 0.2s ease-in;
+    box-shadow: 0 0 20px 0 #5c5c5c;
+}
+.background-video{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    z-index: -1;
+}
+#news{
+    width: 100%;
+    height: 500px;
+}
+.container-news{
+    font-size: 60px;
+    padding-top: 20px;
+    color: #da0e0e;
+    padding-left: 50px;
+}
+.card-container{
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    color: #000;
+    text-align: center;
+}
+.image-scale{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.text-aespa{
+    padding-top: 20px;
+}
+#about{
+    width: 100%;
+    height: 700px;
+}
+.container-about{
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.box-para{
+    padding-left: 20%;
+    display: flex;
+}
+.paragraph-wervalorant{
+    font-size: 20px;
+    width: 400px;
+    height: 200px;
+}
+.video-gameplay{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    padding-left: 150px;
+}
+.button-learningtogame button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: #da0e0e;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 0 #161616;
+    cursor: pointer;
+}
+.button-learningtogame button:hover{
+    box-shadow: inset 200px 0 0 0 #161616;
+    transition: 0.2s ease-out;
+}
+.button-learningtogame{
+    padding-left: 23%;
+    margin-top: -50px;
+}
+#agent{
+    width: 100%;
+    height: 900px;
+    background-image: url(https://i.pinimg.com/originals/93/69/11/936911b1b403e2b73aa88f51d6ddc8f3.png);
+    object-fit: cover;
+}
+.jett{
+    width: 400px;
+    height: 800px;
+    object-fit: cover;
+}
+.image-agent{
+    padding-left: 17%;
+    padding-top: 80px;
+}
+.topic-agant{
+    font-size: 60px;
+    width: 650px;
+    height: 150px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+.parargraph-agent{
+    font-size: 20px;
+    width: 610px;
+    height: 200px;
+    color: #fff;
+    align-items: center;
+}
+.conatiner-wervalorant{
+    float: right;
+    margin-top: -700px;
+    padding-right: 16%;
+}
+.button-visitagent button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: #da0e0e;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 0 #161616;
+    cursor: pointer;
+}
+.button-visitagent button:hover{
+    box-shadow: inset 200px 0 0 0 #161616;
+    transition: 0.2s ease-out;
+}
+.button-visitagent{
+    padding-left: 70rem;
+    margin-top: -15rem;
+}
+#map{
+    width: 100%;
+    height: 1300px;
+}
+.topic-map{
+    font-size: 60px;
+    color: #da0e0e;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.map{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+.button-visitmap button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: #da0e0e;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 0 #161616;
+    cursor: pointer;
+}
+.button-visitmap button:hover{
+    box-shadow: inset 200px 0 0 0 #161616;
+    transition: 0.2s ease-out;
+}
+.button-visitmap{
+    padding-left: 52rem;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s ease;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-map:hover .overlay{
+    height: 100%;
+}
+.container-map:hover .map{
+    filter: blur(2px);
+    transition: 0.2s ease;
+}
+.container-map{
+    position: relative;
+}
+.name-map{
+    color: #da0e0e;
+    font-size: 80px;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+.container-footer{
+    width: 100%;
+    height: 100px;
+    background-color: #242424;
+}
+.download button{
+    width: 130px;
+    height: 50px;
+    background-color: #3a3a3a;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.download button:hover{
+    background-color: #5c5c5c;
+    transition: 0.2s ease-in;
+}
+.download{
+    text-align: center;
+    padding-top: 25px;
+}
+.contact-link{
+    width: 100%;
+    height: 200px;
+    background-color: #161616;
+    text-align: center;
+}
+.fa-facebook,.fa-instagram,.fa-youtube{
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.fa-facebook:hover {
+    transition: 0.2s ease-out;
+    color: #da0e0e;
+}
+.fa-instagram:hover {
+    transition: 0.2s ease-out;
+    color: #da0e0e;
+}
+.fa-youtube:hover {
+    transition: 0.2s ease-out;
+    color: #da0e0e;
+}
+.logo-footer{
+    width: 150px;
+    height: 100px;
+    margin-left: 54.5rem;
+}
+.white-logo{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.fa-user{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.fa-user:hover{
+    transition: 0.2s ease-in;
+    color: #b30b0b;
+}
+.container-login{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0 #fff;
+    cursor: pointer;
+}
+.container-login:hover{
+    transition: 0.2s ease-in;
+    box-shadow: 0 0 20px 0 #fff;
+}
